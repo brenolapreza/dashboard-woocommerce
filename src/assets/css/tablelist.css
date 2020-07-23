@@ -1,0 +1,17 @@
+.col-sales tr{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: none;
+    border-spacing: 1px;
+}
+table th{
+    font-size: 18px;
+    padding: 10px;
+    background-color: #00a59a73;
+}
+.wrapper tr{
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+}
