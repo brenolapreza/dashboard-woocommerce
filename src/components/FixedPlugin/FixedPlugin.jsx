@@ -27,7 +27,8 @@ import imagine4 from "assets/img/sidebar-4.jpg";
 class FixedPlugin extends Component {
   render() {
     return (
-      <h1>Nothing</h1>
+
+    <h1>{/*}oi{*/}</h1>
       
     );
   }

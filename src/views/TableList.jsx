@@ -43,14 +43,13 @@ componentDidMount() {
 
 render() {
     const productsT = this.state.products
-    const ordersT = this.state.orders
 
     const primeiro = productsT.map(nome => nome.price)
     const segundo = productsT.map(quantidades => quantidades.sale_price)
 
     const passar = parseFloat(primeiro)
 
-    const conta = segundo * passar
+
 
 
     return (
